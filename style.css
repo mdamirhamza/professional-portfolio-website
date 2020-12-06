@@ -1,5 +1,5 @@
 body{
-   
+   margin: 0px;
 }
 h1{
     font-family: 'Do Hyeon', sans-serif;
@@ -16,4 +16,53 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.hire-me-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(218, 20, 53), pink);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hire-me-btn:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+.second-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.second-half-width img{
+    width: 100%;
+}
+.second-half-width p{
+    text-align: justify;
+}
+.dawnload-resume-btn{
+    text-decoration: none;
+    background-image: linear-gradient(60deg, rgb(161, 177, 16), rgb(185, 49, 34));
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: blanchedalmond;
+}
+.dawnload-resume-btn:hover{
+    color: white;
+    font-weight: bold;
+}
+.second-top-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
 }
